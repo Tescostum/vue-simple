@@ -6,7 +6,7 @@ module.exports = {
   output: {
     //処理後のjsファイルの置き場所
     filename: 'bundle.js',
-    path: path.resolve(__dirname + '/doc', 'dist')
+    path: path.resolve(__dirname + '/docs', 'dist')
   },
   resolve: {
     //importとかの解決用？
