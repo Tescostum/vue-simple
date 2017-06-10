@@ -1,3 +1,4 @@
+<!-- styleにscopedを宣言させるとこのvue内のみのスタイルになる -->
 <style scoped>
   .document {
 	  text-shadow: 2px 2px 2px #333;
