@@ -1,0 +1,7 @@
+{
+  //babel謎。stage-2ってなんだろう。(Vueの公式が指定しているパラメータ)
+  //stageが上がるにつれてECMAScriptの将来予定の機能まで使える？
+  //http://babeljs.io/docs/plugins/preset-stage-2/
+  //http://qiita.com/yancya/items/b50f236de34d0ea1f52d
+  "presets": [ [ "es2015", { "modules": false } ], "stage-2" ]
+}
