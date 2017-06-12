@@ -10373,6 +10373,7 @@ process.umask = function() { return 0; };
 __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */].use(__WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]);
 
 /* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
+    mode: 'history',
     routes: [{
         path: '/',
         component: __WEBPACK_IMPORTED_MODULE_2__appContent___default.a
