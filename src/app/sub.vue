@@ -3,13 +3,11 @@
 </template>
 
 <script>
-
   export default {
     name: 'sub-component',
     props: ['message'],
     data() {
       return {
-        
       }
     }
   }

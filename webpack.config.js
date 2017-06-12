@@ -2,7 +2,7 @@ var path = require('path');
 
 module.exports = {
   //エントリポイント
-  entry: './src/app/index.js',
+  entry: './src/app/main.js',
   output: {
     //処理後のjsファイルの置き場所
     filename: 'bundle.js',
