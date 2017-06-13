@@ -7,6 +7,7 @@ import AppContent2 from '../appContent2';
 Vue.use(VueRouter);
 
 export default new VueRouter({
+    mode: 'history',
     routes: [
         {
             path: '/',
